@@ -179,3 +179,5 @@ resource "aws_ecs_service" "test_service_tf" {
   desired_count       = 1
   name                = "test_service_tf"
 }
+
+line added
