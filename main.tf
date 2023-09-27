@@ -1,3 +1,12 @@
+terraform {
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~> 5.0"
+    }
+  }
+}
+
 resource "aws_security_group" "alb-ecs-tf-sg" {
   name        = "alb-ecs-tf-sg"
   description = "SG for ALB-ECS"
