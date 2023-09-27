@@ -50,7 +50,7 @@ resource "aws_security_group" "ecs-tf-sg" {
   }
 
 }
-
+/*
 resource "aws_alb" "ecs-tf-alb" {
   name                             = "ecs-tf-alb"
   internal                         = false
@@ -179,5 +179,4 @@ resource "aws_ecs_service" "test_service_tf" {
   desired_count       = 1
   name                = "test_service_tf"
 }
-
-addling line
+/*
